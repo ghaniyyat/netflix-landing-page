@@ -192,16 +192,32 @@
             padding: 15px 80px 15px 10px;
         }
         
-        footer a {
-            color: #737373;
-            /* gap: 30px; */
+        .margin {
+            margin: 0 10rem;
+            /* justify-content: space-around; */
         }
         
-        ul li {
+        footer p {
+            font-size: 16px;
+            display: block;
+            margin: 2.5rem 0 .5rem 4.3rem;
+        }
+        
+        footer a {
+            color: #737373;
+        }
+        
+        li {
             list-style-type: none;
-            /* flex-direction: column; */
+            font-size: 13px;
+            padding-bottom: 10px;
         }
         
         .gap {
-            margin: 10px 40px;
+            margin: 30px 70px 0 70px;
+        }
+        
+        .last {
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
